@@ -15,6 +15,7 @@ public partial class AlmersContext : DbContext
     {
     }
 
+    public virtual DbSet<Avdelning> Avdelningar { get; set; }
     public virtual DbSet<Betyg> Betygs { get; set; }
 
     public virtual DbSet<Elever> Elevers { get; set; }
